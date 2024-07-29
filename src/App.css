@@ -8,12 +8,27 @@
 }
 header{
   width: 100%;
-  padding: 20px;
+  padding: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  -webkit-box-shadow: -1px 0px 50px 6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 50px 6px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 50px 6px rgba(0,0,0,0.75);
 }
 .logo-div>a{
   font-size: 40px;
   color: rgb(22, 22, 108);
+}
+.menu-list{
+  display: flex;
+  gap: 20px;
+}
+.menu-list>li>a{
+  font-size: 20px;
+  color: rgb(22, 22, 108);
+  transition: 0.5s;
+  &:hover{
+    color:rgba(22, 22, 108, 0.669) ;
+  }
 }
