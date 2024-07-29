@@ -35,8 +35,10 @@ function App() {
       </nav>
       <Button/>
       </header>
-      <section>
-        
+      <section className="cont">
+        <div>
+          
+        </div>
       </section>
     </div>
   );
