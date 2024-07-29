@@ -1,5 +1,6 @@
 import './App.css';
 import Button from "./button.js"
+import Component from './components.js';
 
 function App() {
   return (
@@ -43,6 +44,12 @@ function App() {
           <Button/>
         </div>
       </section>
+      <div className="root">
+          <Component/>
+          <Component/>
+          <Component/>
+          <Component/>
+      </div>
     </div>
   );
 }

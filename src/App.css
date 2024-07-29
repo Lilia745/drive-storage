@@ -16,7 +16,6 @@ header{
   -webkit-box-shadow: -1px 0px 50px 6px rgba(0, 0, 0, 0.535);
   -moz-box-shadow: -1px 0px 50px 6px rgba(0, 0, 0, 0.551);
   box-shadow: -1px 0px 50px 6px rgba(0, 0, 0, 0.541);
-  position: fixed;
 }
 .logo-div>a{
   font-size: 40px;
@@ -68,4 +67,40 @@ header{
   font-size: 20px;
   color:#6d6c6f;
   margin-bottom: 10px;
+}
+.root{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  bottom: 150px;
+}
+.divs{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 15px 50px 15px;
+  -webkit-box-shadow: -1px 0px 50px 6px rgba(0, 0, 0, 0.535);
+  -moz-box-shadow: -1px 0px 50px 6px rgba(0, 0, 0, 0.551);
+  box-shadow: -1px 0px 50px 6px rgba(0, 0, 0, 0.541);
+}
+.divs>ion-icon{
+  font-size: 35px;
+  color: #2787cb;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover{
+    color: #2787cba1;
+  }
+}
+.divs>h4{
+  color: #00315d;
+  margin-bottom: 10px;
+}
+.divs>p{
+  color: #6d6c6f;
+  line-height: 25px;
 }
