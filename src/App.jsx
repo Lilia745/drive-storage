@@ -1,4 +1,5 @@
 import './App.css';
+import Button from "./button.js"
 
 function App() {
   return (
@@ -32,7 +33,11 @@ function App() {
           </li>
         </ul>
       </nav>
+      <Button/>
       </header>
+      <section>
+        
+      </section>
     </div>
   );
 }
