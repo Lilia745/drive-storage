@@ -1,9 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App"> </div>
+    <div className="App">
+      <header>
+        <div className="logo-div">
+          <a href="">OnePage</a>
+        </div>
+      </header>
+    </div>
   );
 }
 
