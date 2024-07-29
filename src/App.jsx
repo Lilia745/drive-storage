@@ -36,8 +36,11 @@ function App() {
       <Button/>
       </header>
       <section className="cont">
-        <div>
-          
+        <div className="box">
+          <h1>One Page Bootstrap</h1>
+          <h1>Website Template</h1>
+          <p>We are team of talanted designers</p>
+          <Button/>
         </div>
       </section>
     </div>
